@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test HTML</title>
+    </head>
+    <body>
+        <h1>Introduction</h1>
+        <h3>About me:</h3>
+        <p>I'm Prince Labao and i'm beginner at HTML, and this is my Testing script, from now on i will be writing & testing all i learn in this app to this script.</p>
+        <h1>What I Learned Today</h1>
+        <h4>March 23, 2023</h4><h4>1.</h4><h6>I learned today that you don't need to add more line just to add a code.</h6><h6>You add more just to make it easily readable for human, and HTML is not sensitive i tought at first it was and i'm wrong HAHA.</h6>
+        <h4>2.</h4>
+        <h6>I just saw about div from tiktok lol i think my "I want to learn #2" is solved i guess?</h6>
+        <!--I learned commenting!!-->
+        <!--i also learned <br>-->
+        <h1>What i want to learn</h1>
+        <h4>1.</h4><h6>I want to learn how to improve my english grammar LOL<h4>2.</h4><h6>I want to learn how to rename the code i don't know how to say it i want to learn to rename it like for example h6 rename into something i want like DINO or sumthing LOL<br><br /> let me know in the comment if this is possible... because you know i'm Beginner :)</h6>
+        <h1>NOTE</h1>
+        <h5>click the button :D</h5>
+        <h6>Just added a moving button LOL cuz why not right?<br> </br>I made the image when u tap it or click it will resize!</h6>
+        <img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2CPdwpMx7QMFUCWdmgyEx5cRw7CamTy0iRg&usqp=CAU">
+        <script>
+  window.onload = function() {
+    var image = document.getElementById("myImage");
+
+    if (image) {
+      image.addEventListener("click", function() {
+        if (image.style.transform === "scale(0.5)") {
+          image.style.transform = "scale(1)";
+        } else {
+          image.style.transform = "scale(0.5)";
+        }
+      });
+    } else {
+      console.error("Could not find image with ID 'myImage'");
+    }
+  };
+</script>
+    <a href="https://youtu.be/dQw4w9WgXcQ"><button>Not a rickroll</button></a>
+    </body>
+</html>
